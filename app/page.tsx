@@ -150,7 +150,7 @@ const MenuMasterPro = () => {
           setStage("complete"); // Move to completion page when all items are done
         }
       }
-    }, 1500);
+    }, 5000);
   };
 
   const isAnswered = (itemIndex, questionIndex) => {
